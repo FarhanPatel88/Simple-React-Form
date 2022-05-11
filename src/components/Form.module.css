@@ -1,0 +1,23 @@
+.form input[type='text'],
+.form input[type='email'],
+.form input[type='url'],
+textarea {
+    border: none;
+    /* border-bottom: 1px solid rgb(255, 165, 0); */
+    outline: none;
+    width: 80%;
+    font-size: 1.2rem;
+    box-shadow: 1px 3px 5px 0px rgba(70, 60, 60, 0.2);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+/* .div {
+    max-width: 50%;
+} */
+
+::placeholder {
+    text-align: center;
+    font-weight: 300;
+}
